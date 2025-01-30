@@ -20,9 +20,12 @@ import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
 // https://astro.build/config
+import { defineConfig } from 'astro/config'
+
 export default defineConfig({
-  site: "https://sjcd.github.io",
-  base: "/",
+  site: 'https://sjcd.github.io',
+  base: 'my-repo',
+})
   trailingSlash: "always",
   integrations: [
     tailwind(
