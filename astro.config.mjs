@@ -26,6 +26,7 @@ export default defineConfig({
   site: 'https://sjcd.github.io',
   base: 'my-repo',
 })
+
   trailingSlash: "always",
   integrations: [
     tailwind(
